@@ -1,0 +1,34 @@
+## Router: Security+ 701 Objectives
+
+**Definition:** A router is a networking device that forwards data packets between computer networks. It examines the destination IP address of each packet and uses routing tables to determine the best path to send it to.
+
+**Significance:** Routers are crucial components of modern computer networks, playing a vital role in:
+
+* **Connecting networks:** Routers bridge the gap between different networks, allowing data to flow seamlessly between them.
+* **Traffic management:** They control the flow of data, prioritizing traffic and preventing network congestion.
+* **Security:** Routers act as a first line of defense, filtering unwanted traffic and implementing security policies.
+* **Network segmentation:** They divide networks into smaller segments, isolating sensitive data and improving security.
+
+**Context:** In the context of Security+ 701 objectives, understanding routers is essential because they are often targeted by attackers and play a crucial role in network security. 
+
+**Related Terms:**
+
+* **Packet forwarding:** The process of sending data packets to their destination.
+* **Routing tables:** Databases that store information about network destinations and the best paths to reach them.
+* **IP address:** A unique numerical label assigned to each device on a network.
+* **Network Address Translation (NAT):** A technique that allows multiple devices on a private network to share a single public IP address.
+* **Firewall:** A security device that inspects network traffic and blocks unauthorized access.
+* **VPN:** A virtual private network that encrypts data and tunnels it over the public internet.
+* **VLAN:** A virtual local area network that logically segments a network, improving security and performance.
+* **DHCP:** Dynamic Host Configuration Protocol, which automatically assigns IP addresses to devices on a network.
+
+**Security+ 701 Objectives:**
+
+Several Security+ 701 objectives directly relate to routers, including:
+
+* **Understanding network devices and their functions.**
+* **Implementing network security controls.**
+* **Identifying common network vulnerabilities and attacks.**
+* **Troubleshooting network connectivity issues.**
+
+**Understanding routers and their role in network security is crucial for anyone working in cybersecurity.** This knowledge helps security professionals identify potential vulnerabilities, implement appropriate security controls, and protect sensitive data from malicious attacks.

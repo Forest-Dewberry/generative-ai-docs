@@ -1,0 +1,106 @@
+AAA
+;afterTerm;
+Authentication, Authorization, and Accounting (AAA) are security mechanisms that control access to computer systems and networks. AAA ensures only authorized users can access specific resources and tracks their activities. It is crucial for maintaining system security and compliance with regulations like HIPAA and PCI DSS.  
+
+AAA involves three key processes:
+
+* **Authentication:** Verifying a user or device's identity through methods like passwords, tokens, biometrics, or security questions.
+* **Authorization:** Granting access rights based on the authenticated user's identity and privileges, determining their actions within the system.
+* **Accounting:** Recording and monitoring user activity, including logins, logout times, accessed resources, and performed actions.
+
+Related concepts include Access Control Lists (ACLs), Role-Based Access Control (RBAC), Single Sign-On (SSO), and Multi-Factor Authentication (MFA).  Various methods are used for each process, such as password-based, token-based, and biometric authentication, and ACLs, RBAC, and attribute-based access control for authorization. Accounting relies on log files, auditing, and Security Information and Event Management (SIEM) systems.
+
+Understanding AAA's components, methods, and related terms is critical for achieving effective security posture and compliance. 
+
+;afterCard;
+ACL
+;afterTerm;
+An Access Control List (ACL) is a set of rules used to control access to resources such as networks, files, or directories. Each rule defines specific permissions, like allowing or denying access, for different entities or users. ACLs are fundamental to security by enforcing access control policies. They restrict access to sensitive resources, enforce the principle of least privilege, track access attempts for security investigations, and enable role-based access control (RBAC). ACLs are employed in various security contexts including network security (firewalls, routers, and switches), operating systems, databases, and cloud services. Related terms include Access Control, Permissions, Authentication, Authorization, RBAC, Rule-based access control, Security Groups, and Network Segmentation. Understanding ACLs is crucial for security professionals as they are widely used in various security technologies and applications. 
+
+;afterCard;
+AES
+;afterTerm;
+The Advanced Encryption Standard (AES) is a widely used symmetric-key block cipher that encrypts data in 128-bit blocks using keys of 128, 192, or 256 bits. Its strength lies in its complex mathematical operations and resistance to known attacks, making it a cornerstone of secure communications and data storage.  AES is used in various applications, such as encrypting sensitive data stored on hard drives and databases, securing Wi-Fi networks using WPA2/WPA3 protocols, protecting data during VPN connections, and encrypting entire hard drives.  
+
+AES is considered highly secure and its widespread adoption by the U.S. government and numerous organizations makes it a vital component for safeguarding sensitive information.  Understanding AES and its significance is essential for security professionals, who need to be able to implement secure systems and protect data from unauthorized access. This includes understanding the principles of symmetric-key cryptography, the operation of block ciphers, the impact of key size, various modes of operation like Cipher Block Chaining (CBC) and Counter (CTR), and the importance of secure key management.  
+
+The Security+ 701 exam covers these cryptographic principles in detail, requiring professionals to understand different types of encryption algorithms, assess the strengths and weaknesses of algorithms like AES, apply cryptography concepts to real-world scenarios, and implement secure key management practices.  
+
+;afterCard;
+AES-256
+;afterTerm;
+AES 256-bit is a highly secure symmetric block cipher that uses the same key for encryption and decryption. It operates on 128-bit blocks and utilizes a 256-bit key, resulting in a massive 2^256 possible key combinations, making it extremely difficult to crack through brute force. Widely adopted by governments, businesses, and individuals, AES 256-bit serves as a cornerstone of data security. Its vast key space and proven resilience against cryptanalysis make it a reliable choice for protecting sensitive information.
+
+AES 256-bit is employed for encrypting data at rest and in transit, including disk encryption (hard drives and SSDs), file encryption, and network encryption (VPNs and HTTPS). It forms a core component of various security standards, such as NIST, FIPS, and ISO/IEC.
+
+Understanding the principles of encryption and decryption, including the role of keys, and the importance of protecting data at rest and in transit are essential for security professionals. AES 256-bit, as a robust and widely-used encryption standard, plays a crucial role in securing data in both the digital and physical worlds. 
+
+;afterCard;
+AH
+;afterTerm;
+The Authentication Header (AH) is a protocol within the Internet Protocol Security (IPsec) framework that provides data integrity and authentication for IP packets. It ensures data hasn't been tampered with and verifies the sender's identity. 
+
+AH uses a Message Authentication Code (MAC) to guarantee data integrity. This cryptographic checksum verifies that the information hasn't been altered during transmission. Additionally, AH leverages cryptographic techniques to authenticate the sender, preventing spoofing and impersonation. 
+
+AH works in conjunction with the Encapsulating Security Payload (ESP) protocol, which focuses on confidentiality through encryption.  
+
+Within the Security+ 701 exam, AH is crucial for understanding IPsec and its protocols, the benefits and mechanisms of data integrity and authentication, and the role of cryptographic algorithms and MACs in securing communication. 
+
+To ensure data integrity and authentication, AH operates as follows: the sender generates an AH header containing a MAC calculated from the packet's data and a shared secret key. This header is appended to the original packet and transmitted to the receiver. The receiver uses the same shared secret key to calculate the MAC and compares it to the received MAC. If they match, the data is verified as authentic and unaltered. 
+
+;afterCard;
+AI
+;afterTerm;
+Artificial intelligence (AI) is the simulation of human intelligence processes by computers, encompassing learning, reasoning, and self-correction. It's becoming increasingly significant in cybersecurity, offering various benefits like threat detection and prevention, automation of security tasks, enhanced threat intelligence, and personalized security measures. AI-powered tools can analyze vast data to identify suspicious patterns and anomalies, helping detect malware, phishing attacks, and other threats. It can also automate tasks such as incident response, vulnerability assessment, and threat intelligence gathering, allowing security professionals to focus on strategic initiatives. AI algorithms can analyze data from multiple sources to identify emerging threats and vulnerabilities, enabling security teams to stay ahead of attackers. Additionally, AI can tailor security measures to individual users and devices based on their risk profiles and behavior patterns.
+
+However, AI's application in cybersecurity requires careful consideration. Ethical issues, including bias, discrimination, and privacy violations, need to be addressed. AI systems themselves can be vulnerable to attacks, necessitating robust security measures. It's crucial for security professionals to be educated and trained on AI in cybersecurity to effectively implement and manage these solutions.  In conclusion, while AI is a powerful tool for enhancing cybersecurity, its adoption requires awareness of its potential risks and benefits, prioritizing ethical considerations and ensuring responsible use.
+
+Related terms include machine learning (ML), deep learning (DL), natural language processing (NLP), computer vision, biometrics, threat intelligence, and incident response, all of which are interconnected and contribute to the advancement of AI in cybersecurity. 
+
+;afterCard;
+AIS
+;afterTerm;
+Automated Indicator Sharing (AIS) is the automated exchange of threat intelligence data, specifically indicators of compromise (IoCs), between organizations. This data includes IP addresses, domain names, file hashes, and other indicators that signal malicious activity. AIS is crucial for enhancing cybersecurity by enabling faster threat detection, improved threat response, and reduced time to remediation. It promotes a collaborative approach to cybersecurity, fostering collective knowledge and defense against threats.
+
+AIS is a key component of modern cybersecurity strategies and plays a significant role in various contexts. Industry-specific Information Sharing and Analysis Centers (ISACs) utilize AIS to facilitate information sharing among their members. Government agencies leverage AIS to share threat intelligence with the private sector, enhancing national cybersecurity. Modern Security Information and Event Management (SIEM) systems often incorporate AIS functionalities for automated threat detection and response.  Security Operations Centers (SOCs) benefit from real-time threat information provided by AIS, enabling them to prioritize and respond to incidents effectively.
+
+AIS empowers organizations to better protect their assets and stay ahead of emerging security risks by enabling faster threat detection, improved threat response, and collective defense against evolving cyber threats. 
+
+;afterCard;
+ALE
+;afterTerm;
+Annualized Loss Expectancy (ALE) is a financial metric that quantifies the potential financial impact of a specific risk occurring over a year. It represents the expected monetary loss from a risk event in a given year, considering the frequency and impact of the event. ALE is crucial for risk management, allowing organizations to prioritize risks based on their potential financial impact and allocate resources effectively to mitigate them. Understanding ALE enables informed decisions about security investments, insurance coverage, and risk mitigation strategies. It also helps organizations meet regulatory requirements and demonstrate their commitment to risk management.
+
+ALE is calculated through a quantitative risk analysis process, involving Single Loss Expectancy (SLE) and Annual Rate of Occurrence (ARO). SLE represents the financial impact of a single occurrence of the risk event, while ARO estimates the number of times the risk event is likely to occur in a year. The formula for ALE is: ALE = SLE x ARO. 
+
+Security+ 701 objectives related to ALE include understanding the concepts of risk management, applying quantitative risk analysis techniques, including calculating ALE, and identifying and analyzing potential risks to information systems and networks.
+
+For example, a company with a data center facing the risk of power outages might have an SLE of $10,000 (lost revenue and data recovery costs) and an ARO of 0.5 per year. The ALE for this risk would be $5,000 ($10,000 x 0.5).
+
+ALE is a valuable tool for quantifying risk and making informed security decisions. Understanding the concept and its calculation is essential for security professionals, particularly in the context of the Security+ 701 exam. 
+
+;afterCard;
+AP
+;afterTerm;
+An access point (AP) is a device that bridges wireless and wired networks, enabling devices like laptops and smartphones to connect to a wired network.  It translates wireless signals into data understandable by the wired network and vice versa. Access points are crucial for creating and managing wireless networks, offering connectivity, scalability, and user flexibility.
+
+They are key components of Wireless LANs (WLANs), working with wireless routers and controllers to establish functional wireless networks. Access points play a critical role in wireless security, implementing authentication protocols like WPA2/3 to protect network access. They allow network administrators to monitor and control traffic, configure security settings, and manage user access.
+
+Related terms include wireless routers, which combine access point functions with routing capabilities, and wireless controllers, which manage multiple access points within a larger network.  Other key terms include the SSID (Service Set Identifier), a unique name for a wireless network; wireless security protocols like WPA2/3 and 802.1x; signal strength, the power of the wireless signal emitted by an access point; channel overlap, which can cause interference and performance degradation; and rogue access points, unauthorized devices that can compromise network security.
+
+The Security+ 701 exam covers various aspects of access points, including their functionality and operation, associated security risks, best practices for securing them, and identification and mitigation of vulnerabilities. Understanding access points and their security implications enables Security+ professionals to effectively manage and secure wireless networks. 
+
+;afterCard;
+API
+;afterTerm;
+An Application Programming Interface (API) is a set of definitions and protocols that allow different software applications to communicate and interact. Acting as an intermediary, APIs enable applications to access specific functionalities or data from other applications without requiring knowledge of their internal workings. This makes APIs increasingly crucial in modern IT systems, making their security a critical aspect.  
+
+The Security+ 701 exam focuses on understanding API attacks and vulnerabilities, such as those outlined in the OWASP API Security Top 10, including common attacks like Broken Object Level Authorization, Mass Assignment, and Injection attacks. It also emphasizes implementing secure API development practices, such as using authentication, authorization, input validation, and rate limiting mechanisms to secure API endpoints. Additionally, the exam expects candidates to recognize and mitigate API security risks, including data leakage, unauthorized access, and denial-of-service attacks.
+
+APIs are widely used in web applications to interact with backend services, databases, and external systems. Mobile applications frequently rely on APIs for functionalities like location services, social media integration, and payment processing. In microservices architecture, APIs play a key role in connecting and communicating between distributed services. 
+
+Related terms include RESTful API, a type of API adhering to the Representational State Transfer (REST) architectural style; API Gateway, a layer providing security, traffic management, and other functionalities; OAuth, an open standard protocol for authorization; Open API Specification (OAS), a standard for defining and documenting APIs; API Security Testing, a process of evaluating API security through various techniques; and API Management, a set of tools and processes for managing the entire API lifecycle.
+
+Understanding APIs and their security implications is crucial for IT security professionals, especially those preparing for the Security+ 701 exam. 
+
+;afterCard;

@@ -1,0 +1,44 @@
+## SNMP: Security+ 701 Objectives
+
+**Definition:**
+
+Simple Network Management Protocol (SNMP) is a network protocol used for collecting and managing information from network devices. It allows network administrators to monitor and configure network devices, such as routers, switches, and servers, remotely. 
+
+**Significance:**
+
+SNMP is crucial for network management and security because it:
+
+* **Provides real-time network monitoring:** Allows administrators to track device performance, resource utilization, and potential issues proactively.
+* **Enables proactive troubleshooting:** Helps identify and resolve network problems before they affect user experience or service availability.
+* **Facilitates configuration management:** Enables remote configuration of network devices, simplifying network administration.
+* **Supports network security:** Used to monitor security events, detect intrusions, and enforce security policies.
+
+**Context:**
+
+SNMP operates over UDP and uses a client-server model. Network devices act as agents, while management stations act as managers. Managers send requests to agents, which respond with information or perform requested actions. 
+
+**Related Terms:**
+
+* **Management Information Base (MIB):** A database containing information about managed devices, organized in a hierarchical structure.
+* **SNMPv1, SNMPv2c, SNMPv3:** Different versions of SNMP with varying levels of security and functionality.
+* **Community String:** A shared secret used for authentication in SNMPv1 and SNMPv2c.
+* **Security Model:** A set of mechanisms that define how SNMP handles security, including authentication, authorization, and encryption.
+* **Security Level:** Determines the level of security applied to SNMP communication, ranging from no security to strong encryption.
+* **SNMP Trap:** An asynchronous message sent from an agent to a manager to report an event, such as an error or security violation.
+* **SNMP Walk:** A process of retrieving data from an agent by iterating through the MIB.
+
+**Security Concerns with SNMP:**
+
+* **Lack of Security:** SNMPv1 and SNMPv2c lack proper authentication and encryption, making them vulnerable to eavesdropping and unauthorized access.
+* **Weak Authentication:** Community strings are easily compromised, allowing attackers to impersonate legitimate users.
+* **Data Breaches:** Exploiting SNMP vulnerabilities can lead to data theft, network disruptions, and even denial-of-service attacks.
+
+**Mitigating Security Risks:**
+
+* **Use SNMPv3:** Offers strong authentication and encryption, significantly improving security.
+* **Implement Access Control Lists (ACLs):** Restrict access to SNMP agents to authorized users and management stations.
+* **Use Strong Passwords:** Choose strong, unique community strings or user credentials.
+* **Enable SNMP Encryption:** Encrypts SNMP communication to protect data confidentiality.
+* **Monitor SNMP Traffic:** Monitor network traffic for suspicious SNMP activity and promptly investigate any anomalies.
+
+Understanding SNMP, its functionalities, and associated security risks is essential for Sec+ 701 exam preparation. By focusing on security best practices and mitigating potential vulnerabilities, you can ensure the secure operation of your network using this powerful management protocol. 

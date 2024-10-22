@@ -1,0 +1,159 @@
+AAA
+;afterTerm;
+Authentication, Authorization, and Accounting (AAA) is a fundamental security framework that combines three key functions to control access to computer systems and networks. Authentication verifies the identity of a user or device attempting to access a system. Authorization determines what resources a user or device is permitted to access after authentication. Accounting records and logs user actions and system events, including access attempts, resource usage, and system modifications. 
+
+AAA is crucial for securing systems and data by preventing unauthorized access, ensuring data integrity, and improving security compliance. It is applied in various cybersecurity aspects, including network access control (NAC), remote access solutions, cloud security, and identity and access management (IAM).
+
+AAA involves various methods and technologies, such as password-based authentication, multi-factor authentication (MFA), biometrics, tokens, certificates, role-based access control (RBAC), attribute-based access control (ABAC), policy-based access control (PBAC), Security Information and Event Management (SIEM), Intrusion Detection Systems (IDS), system logs, audit trails, Kerberos, LDAP, RADIUS, TACACS+, OAuth, and OpenID Connect.
+
+Security best practices related to AAA include implementing strong passwords, enabling MFA, regularly reviewing user privileges, and auditing system logs. Understanding AAA and its related concepts is crucial for Security+ candidates to gain insights into essential security practices that protect systems and data from unauthorized access and malicious activities. 
+
+;afterCard;
+ACL
+;afterTerm;
+An Access Control List (ACL) is a set of rules that determine which users or devices can access specific resources like files, folders, network devices, or websites. Each rule within an ACL specifies a user, group, or device and their permitted actions (e.g., read, write, execute). ACLs are essential for implementing access control and ensuring data security, forming a fundamental element of many security mechanisms, including firewalls, network devices, operating systems, and cloud platforms. By defining explicit access rules, ACLs prevent unauthorized access and maintain data integrity.
+
+ACLs operate within the broader context of access control models such as Role-Based Access Control (RBAC), which assigns permissions based on roles and responsibilities, and Attribute-Based Access Control (ABAC), which leverages user attributes and resource characteristics for fine-grained access control. The principle of least privilege, which grants only the minimum necessary permissions to users and devices, is also relevant.
+
+Related terms include firewalls, which use ACLs to filter traffic, Network Access Control (NAC), which enforces security policies on network-accessing devices, and directory services like Active Directory, which manage user accounts, groups, and permissions, often utilizing ACLs. Other related terms include permissions, specific rights granted for accessing and manipulating resources; policies, high-level guidelines defining security objectives and informing ACL creation; and auditing, the process of reviewing access logs to monitor activity and identify potential security violations.
+
+Examples of ACLs include firewall ACLs, which block traffic from specific IP addresses, prevent access to certain ports, or allow traffic only for specific protocols; file system ACLs, which restrict access to folders based on user groups or specific permissions (read, write, execute); and database ACLs, which define user permissions to read, write, or modify data within specific tables.
+
+The Security+ 701 exam assesses your understanding of ACLs, their implementation for security controls, common deployment scenarios, and related concepts like RBAC and least privilege principles. 
+
+;afterCard;
+AES
+;afterTerm;
+The Advanced Encryption Standard (AES) is a widely used symmetric block cipher for encrypting and decrypting electronic data. Adopted by the U.S. government in 2001, AES is considered a highly secure and efficient algorithm. It protects sensitive data at rest, secures communication channels, and safeguards devices from unauthorized access. AES is a symmetric algorithm, meaning the same key is used for both encryption and decryption, making it faster and more efficient than asymmetric algorithms. However, this requires secure key management. AES operates on blocks of data, typically 128 bits, and uses a key of 128, 192, or 256 bits, with longer keys providing greater security. The algorithm employs a series of rounds of substitutions and permutations to encrypt and decrypt data, each round using a different key for increased attack resistance. 
+
+Understanding the basic concepts of cryptography, including different types of encryption algorithms, symmetric key encryption principles, and the strengths and weaknesses of various algorithms, is crucial for anyone working in cybersecurity. AES, with its robust security and widespread application, is a fundamental element of data protection and system security. 
+
+;afterCard;
+AES-256
+;afterTerm;
+The Advanced Encryption Standard (AES) 256-bit is a symmetric block cipher algorithm adopted by the U.S. government for encrypting sensitive data. It uses a 256-bit key to encrypt data in 128-bit blocks. 
+
+AES 256-bit is considered one of the most secure encryption algorithms available due to its strong key length, widespread adoption, and proven robustness. The massive 256-bit key space makes brute-force attacks virtually impossible. Its use in government and industry builds trust and makes it a reliable standard. Years of cryptanalysis and scrutiny have not revealed any significant weaknesses.
+
+AES 256-bit is commonly used in various applications including: data at rest encryption (e.g., on hard drives and servers), data in transit encryption (e.g., via TLS/SSL), disk encryption (e.g., with BitLocker or FileVault), virtual private networks (VPNs), and mobile device encryption.
+
+Understanding encryption algorithms, including AES and its various key sizes, is crucial for cybersecurity professionals. Key concepts include symmetric encryption (using the same key for encryption and decryption), block ciphers (operating on fixed-size blocks of data), key size (the length of the secret key used in encryption), and brute-force attacks (trying every possible key combination to decrypt data). Other related terms include AES-128 and AES-192 (other key sizes used with AES), TLS/SSL (protocols that utilize AES for secure communication), and encryption key management (the process of securely generating, storing, and managing encryption keys).
+
+Overall, AES 256-bit provides a strong foundation for securing sensitive information and is an essential concept for any aspiring cybersecurity professional. 
+
+;afterCard;
+AH
+;afterTerm;
+The Authentication Header (AH) is a protocol within the IPsec suite designed for authenticating IP packets and ensuring data integrity. While it doesn't encrypt the packet's payload, it provides a digital signature to verify the sender's identity and prevent unauthorized modifications. AH guarantees data integrity by ensuring that received data matches what was sent, preventing tampering. It authenticates the source of the packet, confirming it originates from a trusted sender. This also contributes to non-repudiation, making it difficult for the sender to deny sending the message. By authenticating the sender and protecting against man-in-the-middle attacks, AH strengthens network security.  
+
+AH operates at the network layer of the TCP/IP model and is used in conjunction with IPsec, a suite of protocols providing secure communication over IP networks. Related terms include ESP (Encapsulating Security Payload), which encrypts the packet's payload alongside authentication; IKE (Internet Key Exchange), used for establishing secure connections between IPsec peers; digital signature, a cryptographic technique for verifying message authenticity and integrity; hash function, a mathematical function generating fixed-size strings for digital signatures; and integrity check, a mechanism ensuring data is unmodified in transit. 
+
+Understanding the Authentication Header is crucial for the Security+ 701 objectives related to cryptography, network security, and IPsec. It is fundamental to understanding the security principles of IPsec and its role in securing network communications. 
+
+;afterCard;
+AI
+;afterTerm;
+Artificial intelligence (AI) involves simulating human intelligence processes in computer systems, including learning, reasoning, and self-correction. AI plays a crucial role in cybersecurity by improving threat detection and prevention, automating security tasks, and enhancing overall security posture. AI algorithms can analyze vast amounts of data to identify patterns and anomalies, enabling faster and more accurate detection of malicious activities. This automation frees up security professionals for more strategic work. AI also analyzes and adapts security controls based on real-time threat data, creating a more dynamic and responsive security posture.
+
+AI is increasingly integrated into cybersecurity solutions, impacting various aspects of security. AI-powered tools analyze threat data from various sources to identify emerging threats and predict future attacks. AI helps identify and prioritize security events, automating incident response and improving overall security operations. It can also assess vulnerabilities, prioritize patching efforts, and even automate remediation processes.  AI-powered simulations and phishing tests enhance user awareness and improve their ability to identify and avoid security threats.
+
+Key terms related to AI in cybersecurity include:
+
+* **Machine learning (ML):** A subset of AI that focuses on training computer systems to learn from data without explicit programming.
+* **Deep learning:** A type of ML using artificial neural networks with multiple layers to process complex data.
+* **Natural language processing (NLP):** AI techniques enabling computers to understand and interpret human language.
+* **Computer vision:** AI enabling computers to "see" and interpret images and videos, detecting anomalies and potential threats.
+* **Biometrics:** Using unique biological characteristics for authentication, leveraging AI for improved accuracy and fraud detection.
+* **Ethical AI:**  Concerned with the responsible and ethical development and deployment of AI, ensuring fairness, transparency, and accountability.
+
+The Security+ 701 exam focuses on the practical implications of AI in cybersecurity. Candidates should understand how AI is used in security tools and solutions, the benefits and risks associated with using AI in cybersecurity, common AI-related security vulnerabilities and attack vectors, and best practices for implementing AI in cybersecurity. By understanding AI's role in cybersecurity, individuals can better prepare for a rapidly evolving security landscape. 
+
+;afterCard;
+AIS
+;afterTerm;
+Automated indicator sharing is the process of automatically exchanging security data, specifically indicators of compromise (IOCs), between various security tools, organizations, and agencies. This facilitates rapid threat detection and response across a wider network by leveraging collective intelligence and minimizing the time it takes to remediate threats. 
+
+The significance of automated indicator sharing lies in its ability to enhance threat detection, improve response time, foster collaborative security, and enable proactive security measures. It allows organizations to quickly identify emerging threats, respond swiftly to attacks, and work together to share information and contribute to collective defense. Furthermore, it provides organizations with the ability to identify and mitigate potential threats before they become active attacks.
+
+Automated indicator sharing is a crucial component of modern threat intelligence and cybersecurity strategies. It plays a vital role in Threat Intelligence Platforms (TIPs) which aggregate and analyze threat information from various sources, including automated indicator sharing, to provide actionable insights.  It also plays a crucial role in Security Information and Event Management (SIEM) systems, which use automated indicator sharing to correlate events and identify potential threats based on shared IOCs.  Cybersecurity frameworks, such as NIST CSF and ISO 27001, encourage the implementation of automated indicator sharing mechanisms for effective threat management. Government agencies, including law enforcement and intelligence agencies, leverage automated indicator sharing to combat cybercrime and protect national security.
+
+This concept is relevant to Security+ 701 objectives related to threat intelligence, security information and event management, and collaborative cybersecurity. Understanding the workings of automated indicator sharing and its significance in modern security strategies is essential for achieving these objectives.
+
+;afterCard;
+ALE
+;afterTerm;
+Annualized Loss Expectancy (ALE) is a financial metric used to quantify the expected monetary loss from a specific risk over a year. It helps organizations prioritize security investments by focusing on risks with the highest potential financial impact. ALE is crucial for risk assessment and management. It allows organizations to understand which risks pose the greatest financial threat, prioritize their security efforts, make informed decisions about security investments, and determine insurance coverage needs. Some regulations and industry standards also require organizations to calculate ALE as part of their risk management process.
+
+ALE is calculated by multiplying the Single Loss Expectancy (SLE), the estimated financial loss from a single occurrence of a specific risk, by the Annualized Rate of Occurrence (ARO), the estimated number of times a specific risk is expected to occur within a year. This formula can be expressed as: ALE = SLE x ARO.
+
+For example, if a company has a server containing sensitive customer data with an estimated loss of $100,000 (SLE) and a 10% chance of a data breach occurring per year (ARO), the ALE would be $10,000 (ALE = $100,000 x 0.10). This means the company can expect to lose $10,000 per year due to a data breach on this server, providing valuable information for justifying investments in security controls that reduce the likelihood of a breach.
+
+By understanding the concept of ALE and how to calculate it, security professionals can contribute to the effective management of security risks within their organizations. This includes understanding the role of ALE in risk assessment, calculating ALE using SLE and ARO, identifying and prioritizing risks based on ALE, and using ALE to make informed decisions about security investments. 
+
+;afterCard;
+AP
+;afterTerm;
+Annualized Loss Expectancy (ALE) is a financial metric used to quantify the expected monetary loss from a specific risk over a year. It helps organizations prioritize security investments by focusing on risks with the highest potential financial impact. ALE is crucial for risk assessment and management. It allows organizations to understand which risks pose the greatest financial threat, prioritize their security efforts, make informed decisions about security investments, and determine insurance coverage needs. Some regulations and industry standards also require organizations to calculate ALE as part of their risk management process.
+
+ALE is calculated by multiplying the Single Loss Expectancy (SLE), the estimated financial loss from a single occurrence of a specific risk, by the Annualized Rate of Occurrence (ARO), the estimated number of times a specific risk is expected to occur within a year. This formula can be expressed as: ALE = SLE x ARO.
+
+For example, if a company has a server containing sensitive customer data with an estimated loss of $100,000 (SLE) and a 10% chance of a data breach occurring per year (ARO), the ALE would be $10,000 (ALE = $100,000 x 0.10). This means the company can expect to lose $10,000 per year due to a data breach on this server, providing valuable information for justifying investments in security controls that reduce the likelihood of a breach.
+
+By understanding the concept of ALE and how to calculate it, security professionals can contribute to the effective management of security risks within their organizations. This includes understanding the role of ALE in risk assessment, calculating ALE using SLE and ARO, identifying and prioritizing risks based on ALE, and using ALE to make informed decisions about security investments. 
+
+;afterCard;
+API
+;afterTerm;
+Annualized Loss Expectancy (ALE) is a financial metric used to quantify the expected monetary loss from a specific risk over a year. It helps organizations prioritize security investments by focusing on risks with the highest potential financial impact. ALE is crucial for risk assessment and management. It allows organizations to understand which risks pose the greatest financial threat, prioritize their security efforts, make informed decisions about security investments, and determine insurance coverage needs. Some regulations and industry standards also require organizations to calculate ALE as part of their risk management process.
+
+ALE is calculated by multiplying the Single Loss Expectancy (SLE), the estimated financial loss from a single occurrence of a specific risk, by the Annualized Rate of Occurrence (ARO), the estimated number of times a specific risk is expected to occur within a year. This formula can be expressed as: ALE = SLE x ARO.
+
+For example, if a company has a server containing sensitive customer data with an estimated loss of $100,000 (SLE) and a 10% chance of a data breach occurring per year (ARO), the ALE would be $10,000 (ALE = $100,000 x 0.10). This means the company can expect to lose $10,000 per year due to a data breach on this server, providing valuable information for justifying investments in security controls that reduce the likelihood of a breach.
+
+By understanding the concept of ALE and how to calculate it, security professionals can contribute to the effective management of security risks within their organizations. This includes understanding the role of ALE in risk assessment, calculating ALE using SLE and ARO, identifying and prioritizing risks based on ALE, and using ALE to make informed decisions about security investments. 
+
+;afterCard;
+APT
+;afterTerm;
+Annualized Loss Expectancy (ALE) is a financial metric used to quantify the expected monetary loss from a specific risk over a year. It helps organizations prioritize security investments by focusing on risks with the highest potential financial impact. ALE is crucial for risk assessment and management. It allows organizations to understand which risks pose the greatest financial threat, prioritize their security efforts, make informed decisions about security investments, and determine insurance coverage needs. Some regulations and industry standards also require organizations to calculate ALE as part of their risk management process.
+
+ALE is calculated by multiplying the Single Loss Expectancy (SLE), the estimated financial loss from a single occurrence of a specific risk, by the Annualized Rate of Occurrence (ARO), the estimated number of times a specific risk is expected to occur within a year. This formula can be expressed as: ALE = SLE x ARO.
+
+For example, if a company has a server containing sensitive customer data with an estimated loss of $100,000 (SLE) and a 10% chance of a data breach occurring per year (ARO), the ALE would be $10,000 (ALE = $100,000 x 0.10). This means the company can expect to lose $10,000 per year due to a data breach on this server, providing valuable information for justifying investments in security controls that reduce the likelihood of a breach.
+
+By understanding the concept of ALE and how to calculate it, security professionals can contribute to the effective management of security risks within their organizations. This includes understanding the role of ALE in risk assessment, calculating ALE using SLE and ARO, identifying and prioritizing risks based on ALE, and using ALE to make informed decisions about security investments. 
+
+;afterCard;
+ARO
+;afterTerm;
+Annualized Loss Expectancy (ALE) is a financial metric used to quantify the expected monetary loss from a specific risk over a year. It helps organizations prioritize security investments by focusing on risks with the highest potential financial impact. ALE is crucial for risk assessment and management. It allows organizations to understand which risks pose the greatest financial threat, prioritize their security efforts, make informed decisions about security investments, and determine insurance coverage needs. Some regulations and industry standards also require organizations to calculate ALE as part of their risk management process.
+
+ALE is calculated by multiplying the Single Loss Expectancy (SLE), the estimated financial loss from a single occurrence of a specific risk, by the Annualized Rate of Occurrence (ARO), the estimated number of times a specific risk is expected to occur within a year. This formula can be expressed as: ALE = SLE x ARO.
+
+For example, if a company has a server containing sensitive customer data with an estimated loss of $100,000 (SLE) and a 10% chance of a data breach occurring per year (ARO), the ALE would be $10,000 (ALE = $100,000 x 0.10). This means the company can expect to lose $10,000 per year due to a data breach on this server, providing valuable information for justifying investments in security controls that reduce the likelihood of a breach.
+
+By understanding the concept of ALE and how to calculate it, security professionals can contribute to the effective management of security risks within their organizations. This includes understanding the role of ALE in risk assessment, calculating ALE using SLE and ARO, identifying and prioritizing risks based on ALE, and using ALE to make informed decisions about security investments. 
+
+;afterCard;
+ARP
+;afterTerm;
+Annualized Loss Expectancy (ALE) is a financial metric used to quantify the expected monetary loss from a specific risk over a year. It helps organizations prioritize security investments by focusing on risks with the highest potential financial impact. ALE is crucial for risk assessment and management. It allows organizations to understand which risks pose the greatest financial threat, prioritize their security efforts, make informed decisions about security investments, and determine insurance coverage needs. Some regulations and industry standards also require organizations to calculate ALE as part of their risk management process.
+
+ALE is calculated by multiplying the Single Loss Expectancy (SLE), the estimated financial loss from a single occurrence of a specific risk, by the Annualized Rate of Occurrence (ARO), the estimated number of times a specific risk is expected to occur within a year. This formula can be expressed as: ALE = SLE x ARO.
+
+For example, if a company has a server containing sensitive customer data with an estimated loss of $100,000 (SLE) and a 10% chance of a data breach occurring per year (ARO), the ALE would be $10,000 (ALE = $100,000 x 0.10). This means the company can expect to lose $10,000 per year due to a data breach on this server, providing valuable information for justifying investments in security controls that reduce the likelihood of a breach.
+
+By understanding the concept of ALE and how to calculate it, security professionals can contribute to the effective management of security risks within their organizations. This includes understanding the role of ALE in risk assessment, calculating ALE using SLE and ARO, identifying and prioritizing risks based on ALE, and using ALE to make informed decisions about security investments. 
+
+;afterCard;
+ASLR
+;afterTerm;
+Annualized Loss Expectancy (ALE) is a financial metric used to quantify the expected monetary loss from a specific risk over a year. It helps organizations prioritize security investments by focusing on risks with the highest potential financial impact. ALE is crucial for risk assessment and management. It allows organizations to understand which risks pose the greatest financial threat, prioritize their security efforts, make informed decisions about security investments, and determine insurance coverage needs. Some regulations and industry standards also require organizations to calculate ALE as part of their risk management process.
+
+ALE is calculated by multiplying the Single Loss Expectancy (SLE), the estimated financial loss from a single occurrence of a specific risk, by the Annualized Rate of Occurrence (ARO), the estimated number of times a specific risk is expected to occur within a year. This formula can be expressed as: ALE = SLE x ARO.
+
+For example, if a company has a server containing sensitive customer data with an estimated loss of $100,000 (SLE) and a 10% chance of a data breach occurring per year (ARO), the ALE would be $10,000 (ALE = $100,000 x 0.10). This means the company can expect to lose $10,000 per year due to a data breach on this server, providing valuable information for justifying investments in security controls that reduce the likelihood of a breach.
+
+By understanding the concept of ALE and how to calculate it, security professionals can contribute to the effective management of security risks within their organizations. This includes understanding the role of ALE in risk assessment, calculating ALE using SLE and ARO, identifying and prioritizing risks based on ALE, and using ALE to make informed decisions about security investments. 
+
+;afterCard;

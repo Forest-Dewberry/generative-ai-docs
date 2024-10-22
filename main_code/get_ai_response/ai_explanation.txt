@@ -1,0 +1,31 @@
+## Access Control Lists (ACLs) in Security+ 701:
+
+**Definition:**
+
+An Access Control List (ACL) is a set of rules that define what access is permitted or denied to a specific resource or network. It acts like a gatekeeper, allowing authorized entities to access resources while blocking unauthorized entities. 
+
+**Significance:**
+
+ACLs play a crucial role in network security by enforcing access control policies. They provide a granular level of control over network traffic and help prevent unauthorized access to sensitive data and systems. This is particularly important in modern network environments with diverse users, devices, and applications.
+
+**Context:**
+
+In the Security+ 701 exam, ACLs are addressed within the "Network Security" domain. The objective covers the following aspects:
+
+* **Understanding how ACLs function:** The exam expects you to know how ACLs filter network traffic based on defined rules, such as source/destination IP addresses, port numbers, and protocols.
+* **Types of ACLs:** You should be familiar with different ACL types, including Standard, Extended, and Implicit ACLs.
+* **Implementing ACLs:**  The exam may test your knowledge on how to configure and apply ACLs using different networking devices like firewalls and routers.
+* **Troubleshooting ACLs:** You should understand how to troubleshoot common issues related to ACLs, such as traffic being blocked incorrectly or ACLs being misconfigured.
+
+**Related Terms:**
+
+* **Firewall:**  A hardware or software device that acts as a barrier between a private network and the outside world. ACLs are often used within firewalls to control network access.
+* **Router:** A network device that forwards data packets between different networks. ACLs can be applied on routers to filter traffic entering and exiting the network.
+* **Network Access Control (NAC):**  A security solution that ensures devices meet certain security criteria before being allowed to access the network. ACLs can be used as part of a NAC implementation.
+* **Packet Filtering:**  The process of examining network traffic and allowing or blocking packets based on specific criteria defined in ACLs.
+* **Implicit Deny:**  A rule that automatically blocks any traffic not explicitly permitted by the ACL.
+* **Access Control Model:**  A framework that defines how access to resources is controlled. ACLs are one implementation of an access control model.
+
+**In summary:**
+
+Understanding ACLs is fundamental to network security. The Security+ 701 exam expects you to be familiar with ACL concepts, types, implementation, and troubleshooting. Mastering these concepts will help you build secure and reliable network infrastructure. 
